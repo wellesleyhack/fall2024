@@ -8,6 +8,8 @@ body {
     background-position: center top;   
 } */
 
+/* global ------------------------------------------------------------------------------ */
+
 @font-face {
     font-family: 'Prime';
     src: url('prime/Prime-Regular.otf') format('truetype');
@@ -30,12 +32,114 @@ body {
     background-attachment: fixed; /* Optional: keeps the background fixed when scrolling */
 }
 
-#title {
+.PrimeTitle {
     font-family: 'Prime';
-    font-size: 2rem
+    font-size: 6rem;
+    color: #0C3147;
 }
 
-#summary {
+.InterTitle {
     font-family: 'Inter';
-    font-size: 1rem;
+    font-size: 3rem;
+    color: #0C3147;
 }
+
+
+
+/* for other screen sizes (mobile) */
+
+@media (max-width: 700px) {
+    .nav-logo {
+      display: none;
+      visibility: hidden;
+    }
+    .nav-links {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .nav-link-ham {
+      display: block !important;
+      border: none;
+      background: none;
+    }
+  
+    .nav-link a {
+      color: white !important;
+    }
+
+}
+
+/* header navbar ------------------------------------------------------------------------- */
+nav {
+    min-height: 4rem;
+    padding: 3rem;
+  }
+
+nav.nav-border {
+    min-height: 4rem;
+    padding: 3rem;
+    border: 2px solid #0C3147; /* Adjust the color and thickness of the border as needed */
+    border-radius: 50px; /* Adjust the radius to achieve the desired roundness */
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 83%;
+    height: 75px;
+}
+  
+/*   .nav-logo img {
+    max-height: 3rem;
+    margin-left: 1rem;
+  } */
+  
+/*   .mlh-badge,
+  .mlh-img {
+    display: block;
+    width: 5em;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+  }
+   */
+  .nav-link a {
+    color: #0C3147;
+  }
+  
+  .nav-links {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .nav-link-ham {
+    display: none;
+    z-index: 100;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .nav-link-ham:hover {
+    cursor: pointer;
+  }
+  
+  .mobile-nav-links {
+    background-color: #0C3147;
+    padding: 1rem;
+    margin-top: 5rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+    visibility: hidden;
+  }
+
+
+  /* Home ------------------------------------------------------------------------- */
+  .HomeIntro {
+    text-align: right;
+    margin-right: 80px; 
+}
+
