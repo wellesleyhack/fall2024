@@ -24,14 +24,19 @@ body {
 
 .PrimeTitle {
     font-family: 'Prime';
+    font-weight: 900;
+    /* font-style: oblique; */
     font-size: 6rem;
     color: #0C3147;
+    line-height: 1;  
+    margin-top: 35px;
 }
 
 .InterTitle {
     font-family: 'Inter';
     font-size: 3rem;
     color: #0C3147;
+    line-height: 1; 
 }
 
 
