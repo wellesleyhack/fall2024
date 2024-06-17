@@ -1,13 +1,3 @@
-/* background-image {linear-gradient: (#FB8500, #FFB703);} */
-/*    
-body {
-    background-image: linear-gradient(#FB8500, #FFB703);
-    height: 100%;
-    background-size: 100vw 100%;
-    background-repeat: no-repeat;
-    background-position: center top;   
-} */
-
 /* global ------------------------------------------------------------------------------ */
 
 @font-face {
@@ -29,7 +19,7 @@ body {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional: keeps the background fixed when scrolling */
+    background-attachment: fixed; /* keeps the background fixed when scrolling */
 }
 
 .PrimeTitle {
@@ -45,19 +35,20 @@ body {
 }
 
 
-
 /* for other screen sizes (mobile) */
-
 @media (max-width: 700px) {
     .nav-logo {
       display: none;
       visibility: hidden;
     }
+
     .nav-links {
-      display: none;
-      visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
     }
-  
+
     .nav-link-ham {
       display: block !important;
       border: none;
@@ -70,22 +61,24 @@ body {
 
 }
 
+
 /* header navbar ------------------------------------------------------------------------- */
-nav {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 4rem;
     padding: 3rem;
+    width:100%
   }
 
-nav.nav-border {
+  nav.nav-border {
     min-height: 4rem;
     padding: 3rem;
-    border: 2px solid #0C3147; /* Adjust the color and thickness of the border as needed */
-    border-radius: 50px; /* Adjust the radius to achieve the desired roundness */
+    border: 2px solid #0C3147; 
+    border-radius: 50px; 
     padding-top: 15px;
-    padding-right: 20px;
     padding-bottom: 10px;
-    padding-left: 10px;
-    margin-left: 60px;
     margin-top: 25px;
     width: 83%;
     height: 75px;
@@ -105,6 +98,7 @@ nav.nav-border {
     right: 1rem;
   }
    */
+
   .nav-link a {
     color: #0C3147;
   }
