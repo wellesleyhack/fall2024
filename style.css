@@ -14,20 +14,50 @@
     font-style: normal;
 }
 
-body {
-    background-image: linear-gradient(#FB8500, #FFB703);
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* keeps the background fixed when scrolling */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+#gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-repeat: no-repeat; */
+  background: -webkit-linear-gradient(top, #023047, #219EBC);
+  background: -moz-linear-gradient(top, #023047, #219EBC);
+  background: -ms-linear-gradient(top, #023047, #219EBC);
+  background: -o-linear-gradient(top, #023047, #219EBC);
+  background: linear-gradient(to bottom, #023047, #219EBC);
+  z-index: -1;
+}
+
+/* body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #023047, #219EBC);
+  background-attachment: cover;
+  background-repeat: no-repeat;
+} */
+
+/* body {
+    background-image: linear-gradient(#023047, #219EBC);
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+} */
 
 .PrimeTitle {
     font-family: 'Prime';
     font-weight: 900;
     /* font-style: oblique; */
     font-size: 6rem;
-    color: #0C3147;
+    color: #FB8500;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     line-height: 1;  
     margin-top: 35px;
 }
@@ -35,8 +65,19 @@ body {
 .InterTitle {
     font-family: 'Inter';
     font-size: 3rem;
-    color: #0C3147;
+    color: #FB8500;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     line-height: 1; 
+}
+
+/* ensuring each "section" takes up the full screen on a laptop */
+.fullscreen-section {
+  height: 100vh;
+  background: transparent;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
 }
 
 
@@ -60,9 +101,9 @@ body {
       background: none;
     }
   
-    .nav-link a {
+    /* .nav-link a {
       color: white !important;
-    }
+    } */
 
 }
 
@@ -80,7 +121,7 @@ body {
   nav.nav-border {
     min-height: 4rem;
     padding: 3rem;
-    border: 2px solid #0C3147; 
+    border: 2px solid #FB8500; 
     border-radius: 50px; 
     padding-top: 15px;
     padding-bottom: 10px;
@@ -105,7 +146,7 @@ body {
    */
 
   .nav-link a {
-    color: #0C3147;
+    color: #FB8500;
   }
   
   .nav-links {
@@ -125,7 +166,7 @@ body {
   }
   
   .mobile-nav-links {
-    background-color: #0C3147;
+    background-color: #FB8500;
     padding: 1rem;
     margin-top: 5rem;
     top: 0;
