@@ -70,6 +70,13 @@ html, body {
     line-height: 1; 
 }
 
+.section-title {
+  font-family: 'Prime';
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #FB8500;
+}
+
 /* ensuring each "section" takes up the full screen on a laptop */
 .fullscreen-section {
   height: 100vh;
@@ -78,33 +85,6 @@ html, body {
   /* justify-content: center;
   align-items: center;
   text-align: center; */
-}
-
-
-/* for other screen sizes (mobile) */
-@media (max-width: 700px) {
-    .nav-logo {
-      display: none;
-      visibility: hidden;
-    }
-
-    .nav-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-
-    .nav-link-ham {
-      display: block !important;
-      border: none;
-      background: none;
-    }
-  
-    /* .nav-link a {
-      color: white !important;
-    } */
-
 }
 
 
@@ -183,3 +163,47 @@ html, body {
     margin-right: 80px; 
 }
 
+  /* About ------------------------------------------------------------------------- */
+
+  #about {
+    text-align: left;
+    margin-left: 160px;
+    max-width: 33%;
+    text-align: left;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* for other screen sizes (mobile)  -   fix later */
+@media (max-width: 700px) {
+  .nav-logo {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-link-ham {
+    display: block !important;
+    border: none;
+    background: none;
+  }
+
+  /* .nav-link a {
+    color: white !important;
+  } */
+
+}
