@@ -190,6 +190,14 @@ html, body {
     max-width: 80%;
   }
 
+  h3 {
+    font-size: 1.2rem !important;
+    font-family: "Inter" !important;
+    text-align: center;
+    font-weight: 700 !important;
+    color: #ffdbb3 !important;
+  }
+
   .schedulebox {
     font-family: "Inter";
     background-color: rgba(255, 255, 255, 0.6);
