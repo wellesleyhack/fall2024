@@ -170,12 +170,30 @@ html, body {
 
   #about {
     text-align: left;
-    margin-left: 160px;
+    margin-left: 180px;
     max-width: 33%;
-    text-align: left;
+  }
+  
+/* Theme ------------------------------------------------------------------------- */
+
+  #theme {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 180px;
+    max-width: 33%;
   }
 
 
+  /* #theme { */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* text-align: left;
+    margin-left: auto;
+    margin-left: 200px;  
+    max-width: 33%; */
+    /* box-sizing: border-box; */
+  /* } */
 
 
 
