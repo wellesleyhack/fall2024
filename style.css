@@ -19,7 +19,8 @@ html, body {
   margin: 0;
   padding: 0;
   background-image: url("https://cdn.glitch.global/0b7550b6-a34a-456a-aa8a-a4dd9f654d83/gradient.png?v=1721263599136");
-  background-size: 100vw 100%;
+  background-size: cover !important;
+  background-attachment: local;
   overflow-x: hidden;
 }
 
@@ -84,10 +85,6 @@ html, body {
 .fullscreen-section {
   height: 100vh;
   background: transparent;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center;
-  text-align: center; */
 }
 
   p {
