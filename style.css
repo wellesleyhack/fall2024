@@ -173,7 +173,7 @@ html, body {
     margin-left: 180px;
     max-width: 33%;
   }
-  
+
 /* Theme ------------------------------------------------------------------------- */
 
   #theme {
@@ -183,6 +183,42 @@ html, body {
     max-width: 33%;
   }
 
+/* Schedule ------------------------------------------------------------------------- */
+
+  #schedule {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .schedulebox {
+    font-family: "Inter";
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .schedulebox span {
+    font-size: 0.8rem;
+  }
+  
+  .schedulebox li {
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+  
+  .schedulebox .row {
+    margin: 1rem;
+  }
+  
+  .schedhead {
+    font-weight: 700 !important;
+  }
+  
+  #schedule {
+    margin-bottom:12rem;
+  }
 
   /* #theme { */
     /* display: flex; */
