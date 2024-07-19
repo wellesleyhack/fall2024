@@ -240,12 +240,151 @@ html, body {
   /* } */
 
 
+/* Theme ------------------------------------------------------------------------- */
+
+#faq {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  max-width: 60rem;
+  align-items: center;
+  justify-content: center;
+}
 
 
+#faq button {
+  text-align: left;
+  border: none;
+}
+
+#faq .col-auto {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.faqtitle {
+  font-family: "Josefin Sans", sans-serif;
+  color: #304a8b;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.faqcard {
+  width: 25rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 3px 2px gray;
+}
+
+.question {
+  font-family: "Cabin", sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.answer {
+  margin-top: 0.25rem;
+  color: #304a8b;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  display: none;
+  padding: 0.5rem;
+}
+
+.drop {
+  position: absolute;
+  right: 1rem;
+  margin-top: -1.7rem;
+}
+
+.faqcard:hover {
+  cursor: pointer;
+}
+
+.faqcard a,
+.email-blurb a {
+  font-weight: 500;
+  color: white;
+}
+
+.email-blurb {
+  margin-top: 2rem;
+  font-weight: 500;
+  color: white;
+  max-width: 20rem;
+  text-align: center;
+}
 
 
+/* meet the team ------------------------------------------------------------------------ */
+#team {
+  margin-bottom: 10rem;
+  margin: auto;
+}
 
+#team button {
+  border: none;
+}
 
+.teamtitle {
+  background-color: white;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.teamtitle:hover {
+  cursor: pointer;
+}
+
+.teammembers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 24rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-content: flex-start;
+  scrollbar-width: auto;
+  scrollbar-color: transparent #ffffff;
+}
+
+.member,
+.hoverinfo,
+.memberimg {
+  width: 10rem;
+  height: 10rem;
+  background-size: 10rem;
+  border-radius: 10rem;
+  text-align: center;
+  white-space: pre-line;
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.memberimg {
+  object-fit: cover;
+}
+
+.hoverinfo {
+  background-color: black;
+  opacity: 0.75;
+  margin-top: -10.5rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  line-height: 1.25rem;
+}
 
   /* for other screen sizes (mobile)  -   fix later */
 @media (max-width: 700px) {
