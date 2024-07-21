@@ -254,10 +254,10 @@ $(".faqcard").click(function () {
         newmember.addToDom();
       }
     }
-    $(".teamtitle").css("background-color", "white");
+    $(".teamtitle").css("background-color", "rgba(255, 255, 255, 0.6)");
     $(".teamtitle").css("color", "black");
-    $(this).css("background-color", "#287F9F");
-    $(this).css("color", "white");
+    $(this).css("background-color", "#0C3149");
+    $(this).css("color", "#ffdbb3");
   }
   
   function allClickHandler() {
@@ -273,10 +273,10 @@ $(".faqcard").click(function () {
         );
         newmember.addToDom();
     }
-    $(".teamtitle").css("background-color", "white");
+    $(".teamtitle").css("background-color", "rgba(255, 255, 255, 0.6)");
     $(".teamtitle").css("color", "black");
-    $(".allmembers").css("background-color", "#287F9F");
-    $(".allmembers").css("color", "white");
+    $(".allmembers").css("background-color", "#0C3149");
+    $(".allmembers").css("color", "#ffdbb3");
   }
   
   $(document).ready(allClickHandler)
