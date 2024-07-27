@@ -179,6 +179,11 @@ html, body {
     padding-top: 1em;
 } 
 
+.compGIF {
+    justify-content: right;
+    width: 40%;
+}
+
 /* Theme ------------------------------------------------------------------------- */
 
   #theme {
