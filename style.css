@@ -90,6 +90,98 @@ html, body {
   p {
     color: #ffdbb3;
   }
+/* for other screen sizes */
+@media (max-width: 700px) {
+  .nav-logo {
+    display: none;
+    visibility: hidden;
+  }
+  .nav-links {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav-link-ham {
+    display: block !important;
+    border: none;
+    background: none;
+  }
+
+  .nav-link a {
+    color: white !important;
+  }
+
+  #clockdiv {
+    font-size: 12vw !important;
+  }
+
+  .smalltext {
+    font-size: 2vw !important;
+    margin-top: -1rem !important;
+  }
+
+  .faqcard {
+    max-width: 70vw;
+  }
+
+  .question {
+    max-width: 50vw !important;
+  }
+
+  #team {
+    margin: 1rem;
+  }
+
+  .teammembers {
+    height: 20rem !important;
+  }
+
+  .member,
+  .hoverinfo,
+  .memberimg {
+    width: 8rem !important;
+    height: 8rem !important;
+    background-size: 8rem !important;
+    border-radius: 8rem !important;
+    font-size: 0.75rem;
+  }
+
+  .hoverinfo {
+    margin-top: -8.5rem !important;
+  }
+
+  .faq-whale {
+    margin-top: -10rem !important;
+    max-width: 100% !important;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .theme-rectangle {
+    width: 90vw !important;
+  }
+
+  .theme-whale-logo {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100vw !important;
+  }
+
+  .rectangle {
+    max-width: 80vw !important;
+  }
+
+  .theme-rectangle .col-auto {
+    max-width: 5rem;
+    justify-content: center;
+  }
+  
+  #about h6 {
+  right:5%!important;
+}
+}
 
 /* header navbar ------------------------------------------------------------------------- */
   nav {
@@ -113,10 +205,10 @@ html, body {
     height: 75px;
 }
   
-/*   .nav-logo img {
+.nav-logo img {
     max-height: 3rem;
     margin-left: 1rem;
-  } */
+  } 
   
 /*   .mlh-badge,
   .mlh-img {
