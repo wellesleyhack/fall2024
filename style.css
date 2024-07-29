@@ -272,6 +272,7 @@ html, body {
 } 
 
 .compGIF {
+    display: inline-block;
     justify-content: right;
     width: 40%;
 }
