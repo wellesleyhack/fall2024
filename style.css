@@ -60,7 +60,7 @@ html, body {
     font-weight: 1000;
     /* font-style: oblique; */
     font-size: 6rem;
-    color: #ffdbb3;
+    color: #ccbbfd;
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     line-height: 1;  
     margin-top: 35px;
@@ -69,7 +69,7 @@ html, body {
 .InterTitle {
     font-family: 'Inter';
     font-size: 3rem;
-    color: #ffdbb3;
+    color: #8ecbe7;
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     line-height: 1; 
 }
@@ -78,7 +78,7 @@ html, body {
   font-family: 'Prime';
   font-weight: 900;
   font-size: 3.5rem;
-  color: #ffdbb3;
+  color: #ccbbfd;
 }
 
 /* ensuring each "section" takes up the full screen on a laptop */
@@ -87,9 +87,10 @@ html, body {
   background: transparent;
 }
 
-  p {
-    color: #ffdbb3;
-  }
+p {
+  color: #8ecbe7;
+}
+
 /* for other screen sizes */
 @media (max-width: 700px) {
   .nav-logo {
@@ -99,6 +100,7 @@ html, body {
   .nav-links {
     display: none;
     visibility: hidden;
+    /* justify-content: center; */
   }
 
   .nav-link-ham {
@@ -196,7 +198,7 @@ html, body {
   nav.nav-border {
     min-height: 4rem;
     padding: 3rem;
-    border: 2px solid #ffdbb3; 
+    border: 2px solid #f5a9b0; 
     border-radius: 50px; 
     padding-top: 15px;
     padding-bottom: 10px;
@@ -221,7 +223,7 @@ html, body {
    */
 
   .nav-link a {
-    color: #ffdbb3;
+    color: #f5a9b0;
   }
   
   .nav-links {
@@ -241,7 +243,7 @@ html, body {
   }
   
   .mobile-nav-links {
-    background-color: #ffdbb3;
+    background-color: #f5a9b0;
     padding: 1rem;
     margin-top: 5rem;
     top: 0;
@@ -298,7 +300,7 @@ html, body {
     font-family: "Inter" !important;
     text-align: center;
     font-weight: 700 !important;
-    color: #ffdbb3 !important;
+    color: #8ecbe7 !important;
   }
 
   .schedulebox {
