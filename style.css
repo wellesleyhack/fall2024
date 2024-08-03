@@ -261,13 +261,12 @@ p {
     text-align: left;
     margin-left: 180px;
     max-width: 33%;
-    margin-top: 4.5em;
+    margin-top: 6em;
   }
 
 .compGIF {
-    display: inline-block;
-    justify-content: right;
-    width: 40%;
+    float: right;
+    width: 50%;
 }
 
 /* Theme ------------------------------------------------------------------------- */
