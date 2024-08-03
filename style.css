@@ -38,8 +38,8 @@ html, body {
   overflow-x: hidden;
 }
 
-.PrimeTitle {
-    font-family: 'Prime';
+.HeadTitle {
+    font-family: 'P22 Basala';
     font-weight: 1000;
     /* font-style: oblique; */
     font-size: 6rem;
@@ -49,7 +49,7 @@ html, body {
     margin-top: 35px;
 }
 
-.InterTitle {
+.PoppinsTitle {
     font-family: 'Inter';
     font-size: 3rem;
     color: #8ecbe7;
