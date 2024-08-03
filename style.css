@@ -41,17 +41,15 @@ html, body {
 .HeadTitle {
     font-family: 'P22 Basala';
     font-weight: 1000;
-    /* font-style: oblique; */
     font-size: 6rem;
-    color: #ccbbfd;
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+    color: #F5A9B0;
     line-height: 1;  
     margin-top: 35px;
 }
 
 .PoppinsBold {
     font-family: 'Poppins Bold';
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ffffff;
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     line-height: 1; 
