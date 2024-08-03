@@ -68,6 +68,10 @@ html, body {
     margin-left: -600px;
 }
 
+.HomeIntro button {
+    padding: 1em;
+}
+
 .register {
     font-family: "Poppins Bold";
     font-size: 1rem;
