@@ -1,15 +1,29 @@
 /* global ------------------------------------------------------------------------------ */
 
 @font-face {
-    font-family: 'Prime';
-    src: url('prime/Prime-Regular.otf') format('truetype');
+    font-family: 'P22 Basala';
+    src: url('https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/fonnts.com-P22_Basala.otf?v=1722113288133') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('Inter/static/Inter-Medium.ttf') format('truetype');
+    font-family: 'Fredoka';
+    src: url('https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Fredoka-VariableFont_wdth%2Cwght.ttf?v=1722113441822') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Poppins-Bold.ttf?v=1722113504917') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Poppins-Regular.ttf?v=1722113497826') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
