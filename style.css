@@ -266,10 +266,8 @@ p {
 
 .compGIF {
     display: block;
-    
     justify-content: right;
-    max-height: 10%;
-    width: auto;
+    width: 65%;
 }
 
 /* Theme ------------------------------------------------------------------------- */
