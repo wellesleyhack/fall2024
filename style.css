@@ -63,6 +63,10 @@ html, body {
   text-shadow: 4px 4px 8px #B1E6FF;
 }
 
+.wave {
+    margin-left: -300px;
+}
+
 /* ensuring each "section" takes up the full screen on a laptop */
 .fullscreen-section {
   height: 100vh;
