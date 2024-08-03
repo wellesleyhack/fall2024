@@ -242,7 +242,7 @@ p {
     margin-right: 80px; 
 }
 
-.backpack {
+.whale {
   max-height: 65%;
   width: auto;
   padding: 1em;
@@ -257,11 +257,6 @@ p {
     margin-left: 180px;
     max-width: 33%;
   }
-
-.whale {
-    width: 40%;
-    padding-top: 1em;
-} 
 
 .compGIF {
     display: inline-block;
