@@ -376,13 +376,14 @@ p {
 }
 
 .question {
-  font-family: "Poppins Regular";
+  font-family: "Poppins Bold";
   color: rgb(33, 37, 41);;
   font-weight: 600;
   font-size: 1.2rem;
 }
 
 .answer {
+  font-family: "Poppins Regular";
   margin-top: 0.25rem;
   color: #304a8b;
   font-weight: 400;
