@@ -266,7 +266,7 @@ p {
 
 .compGIF {
     display: block;
-    margin-top: -100vh;
+    
     justify-content: right;
     max-height: 10%;
     width: auto;
