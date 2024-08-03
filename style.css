@@ -265,6 +265,7 @@ p {
   }
 
 .compGIF {
+    display: block;
     margin-top: -100px;
     float: right;
     width: 30%;
