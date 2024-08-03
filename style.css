@@ -177,7 +177,7 @@ p {
 }
   
 .nav-logo img {
-    max-height: 3rem;
+    max-height: 2.5rem;
     margin-left: 1rem;
   } 
   
@@ -228,6 +228,14 @@ p {
     text-align: right;
     margin-right: 80px; 
 }
+
+.backpack {
+  max-height: 65%;
+  width: auto;
+  padding: 1em;
+  margin-top: -325px;
+}
+
 
   /* About ------------------------------------------------------------------------- */
 
