@@ -276,12 +276,13 @@ p {
     margin-left: 180px;
     max-width: 33%;
     margin-top: 6em;
+    clear: right;
   }
 
 .compGIF {
     position: relative;
-    display: in-line-block;
-    text-align: right;
+    display: in-line;
+    float: right;
     width: 65%;
 }
 
