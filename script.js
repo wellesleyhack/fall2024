@@ -1,5 +1,5 @@
 // faq -----------------------------------------------------------------------------------------
-$(".faqcard row").click(function () {
+$(".faqcard").click(function () {
     $(this).find(".answer").toggle();
   });
   
