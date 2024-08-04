@@ -133,6 +133,7 @@ p {
 
   #team {
     margin: 1rem;
+    margin-top: 20rem;
   }
 
   .teammembers {
@@ -385,19 +386,39 @@ p {
 }
 
 .faqcard {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
   width: 25rem;
   padding: 0.75rem;
   border-radius: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.6);;
+  background-color: rgba(255, 255, 255, 0.6);
   margin-bottom: 1.5rem;
   /* box-shadow: 0px 3px 2px gray; */
 }
 
+.icon {
+  margin-right: 10px;
+}
+
+.icon img {
+  display: block;
+  height: 24px; /* Adjust the height as needed */
+}
+
 .question {
   font-family: "Poppins Bold";
-  color: rgb(33, 37, 41);;
+  color: rgb(33, 37, 41);
   font-weight: 600;
   font-size: 1.2rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.drop {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 .answer {
@@ -411,11 +432,7 @@ p {
   padding: 0.5rem;
 }
 
-.drop {
-  position: absolute;
-  right: 1rem;
-  margin-top: -1.7rem;
-}
+
 
 .faqcard:hover {
   cursor: pointer;
