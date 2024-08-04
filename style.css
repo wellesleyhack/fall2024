@@ -278,10 +278,13 @@ p {
     margin-top: 6em;
   }
 
-.compGIF {
+.gif1 {
     position: relative;
     display: inline;
     margin-right: 180px;
+}
+
+.compGIF {
     max-width: 55%;
 }
 
