@@ -279,7 +279,8 @@ p {
   }
 
 .compGIF {
-    display: block;
+    position: relative;
+    display: in-line-block;
     justify-content: right;
     width: 65%;
 }
