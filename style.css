@@ -281,7 +281,7 @@ p {
 .compGIF {
     position: relative;
     display: in-line-block;
-    justify-content: right;
+    text-align: right;
     width: 65%;
 }
 
