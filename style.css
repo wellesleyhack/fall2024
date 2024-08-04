@@ -280,9 +280,9 @@ p {
 
 .compGIF {
     position: relative;
-    display: in-line;
-    float: right;
-    max-width: 35%;
+    display: inline;
+    margin-right: 180px;
+    max-width: 55%;
 }
 
 /* Theme ------------------------------------------------------------------------- */
