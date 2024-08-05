@@ -68,6 +68,20 @@ html, body {
     margin-left: -600px;
 }
 
+#waveBottom {
+  width: 100%; /* Adjust to the desired width */
+  height: 200px; /* Set the height you want for cropping */
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  margin-top: 2rem; /* Adds space above the wave image, adjust as needed */
+}
+
+.wave-image {
+  width: 180%; /* Adjust to fit the container */
+  height: auto; /* Keeps the aspect ratio */
+  margin-left: -600px
+}
+
 .register {
     font-family: "Poppins Bold";
     font-size: 1.5rem;
@@ -303,6 +317,7 @@ p {
   #schedule {
     margin: 0 auto;
     max-width: 80%;
+    margin-bottom:12rem;
   }
 
   h3 {
@@ -339,9 +354,6 @@ p {
     font-weight: 700 !important;
   }
   
-  #schedule {
-    margin-bottom:12rem;
-  }
 
   /* #theme { */
     /* display: flex; */
@@ -358,8 +370,7 @@ p {
 /* faq ------------------------------------------------------------------------- */
 
 #faq {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom:12rem;
   max-width: 60rem;
   align-items: center;
   justify-content: center;
@@ -516,6 +527,19 @@ p {
   justify-content: center;
   display: none;
   line-height: 1.25rem;
+}
+
+.gifM {
+  position: relative;
+  display: inline;
+}
+
+.thinkGIF{
+  max-width: 20%;
+  width: auto;
+  padding: 1em;
+  margin-top: -150px;
+  
 }
 
 /* sponsors ------------------------------------------------------------------------------ */
