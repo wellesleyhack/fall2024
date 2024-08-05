@@ -290,7 +290,7 @@ p {
     text-align: left;
     margin-left: 180px;
     max-width: 33%;
-    margin-top: 6em;
+    margin-top: 10em;
   }
 
 .gif1 {
@@ -299,7 +299,7 @@ p {
 }
 
 .compGIF {
-    margin-top: -140vh;
+    margin-top: -150vh;
     max-width: 80%;
 }
 
