@@ -312,6 +312,17 @@ p {
     max-width: 33%;
   }
 
+.gif2 {
+    position: relative;
+    display: inline;
+}
+
+.coding3 {
+    margin-top: -30vh;
+    margin-right: 200vh;
+    max-width: 80%;
+}
+
 /* Schedule ------------------------------------------------------------------------- */
 
   #schedule {
