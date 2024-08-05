@@ -296,10 +296,10 @@ p {
 .gif1 {
     position: relative;
     display: inline;
-    margin-right: 180px;
 }
 
 .compGIF {
+    margin-top: -200px;
     max-width: 55%;
 }
 
