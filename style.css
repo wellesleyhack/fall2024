@@ -647,14 +647,14 @@ p {
 /* footer ------------------------------------------------------------------------------ */
 footer {
   padding: 2rem;
-  background-color: #446cca;
+  background-color: #60A0CE;
   position: absolute;
   width: 100vw;
 }
 
 .conductP {
-  font-family: "Cabin", sans-serif;
-  color: white;
+  font-family: "Poppins Regular";
+  color: black;
   padding-top: 2em;
   float: right;
   text-align: right;
