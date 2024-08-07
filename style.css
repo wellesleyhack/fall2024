@@ -78,7 +78,7 @@ html, body {
 }
 
 .wave-image {
-  width: 180%; /* Adjust to fit the container */
+  width: 100%; /* Adjust to fit the container */
   height: auto; /* Keeps the aspect ratio */
 }
 
