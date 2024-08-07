@@ -644,3 +644,34 @@ p {
   } */
 
 }
+/* footer ------------------------------------------------------------------------------ */
+footer {
+  padding: 2rem;
+  background-color: #446cca;
+  position: absolute;
+  width: 100vw;
+}
+
+.conductP {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  padding-top: 2em;
+  float: right;
+  text-align: right;
+  font-size: 18px;
+}
+
+.conductP a {
+  color: white;
+  text-decoration: underline;
+}
+
+.list-inline {
+  padding-top: 4em;
+  position: relative;
+  float: left;
+}
+
+.conductP a:hover {
+  color: #fad7d7;
+}
