@@ -648,7 +648,7 @@ p {
 footer {
   padding: 2rem;
   background-color: #60A0CE;
-  /*position: absolute;*/
+  position: relative;
   width: 100vw;
 }
 
