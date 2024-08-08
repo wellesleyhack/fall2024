@@ -648,13 +648,13 @@ p {
 footer {
   padding: 2rem;
   background-color: #60A0CE;
-  position: absolute;
+  /*position: absolute;*/
   width: 100vw;
 }
 
 .conductP {
   font-family: "Poppins Regular";
-  color: black;
+  color: white;
   padding-top: 2em;
   float: right;
   text-align: right;
