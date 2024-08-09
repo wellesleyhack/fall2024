@@ -211,7 +211,7 @@ p {
     width:100%
   }
 
-  nav.nav-border {
+  nav > div.row {
     min-height: 4rem;
     padding: 3rem;
     background-color: rgba(245, 169, 176, 0.72)
