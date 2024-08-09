@@ -211,7 +211,7 @@ p {
     width:100%
   }
 
-  nav > div.nav-links.row {
+  .navbar {
     min-height: 4rem;
     padding: 3rem;
     background: rgba(245, 169, 176, 0.72)
