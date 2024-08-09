@@ -214,7 +214,8 @@ p {
   nav.nav-border {
     min-height: 4rem;
     padding: 3rem;
-    border: 2px solid #f5a9b0; 
+    background-color: rgba(245, 169, 176, 0.72)
+    border: 3px solid #122F4C; 
     border-radius: 50px; 
     padding-top: 15px;
     padding-bottom: 10px;
@@ -228,7 +229,7 @@ p {
     margin-left: 1rem;
   } 
   
-/*   .mlh-badge,
+.mlh-badge,
   .mlh-img {
     display: block;
     width: 5em;
@@ -236,10 +237,11 @@ p {
     top: 0;
     right: 1rem;
   }
-   */
+
 
   .nav-link a {
-    color: #f5a9b0;
+    font-family: "Poppins Regular";
+    color: white;
   }
   
   .nav-links {
