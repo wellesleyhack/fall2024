@@ -448,7 +448,7 @@ p {
   font-family: "Poppins Regular";
   margin-top: 0.25rem;
   color: #304a8b;
-  font-weight: 400;
+  /*font-weight: 400;*/
   font-size: 1rem;
   line-height: 1.3rem;
   display: none;
