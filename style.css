@@ -80,6 +80,7 @@ html, body {
 .wave-image {
   width: 100%; /* Adjust to fit the container */
   height: auto; /* Keeps the aspect ratio */
+  opacity: 0.7;
 }
 
 .register {
