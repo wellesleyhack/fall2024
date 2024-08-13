@@ -204,28 +204,31 @@ p {
 
 /* header navbar ------------------------------------------------------------------------- */
   nav {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 4rem;
     padding: 3rem;
-    width:100%
+    width: 100%;
   }
 
   #navbar {
+    margin-left: 260px;
+    margin-top: -50px;
     min-height: 4rem;
     padding: 3rem;
-    background: rgba(245, 169, 176, 0.72);
-    border: 3px solid #122F4C; 
-    border-radius: 50px; 
-    padding-top: 15px;
-    padding-bottom: 10px;
-    width: 83%;
-    height: 75px;
+    /* background-color: rgba(245, 169, 176, 0.75); */
+    /* border: 3px solid #122F4C;  */
+    /* border-radius: 50px;  */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60%;
+    height: 70px;
 }
   
 .nav-logo img {
-    max-height: 2.5rem;
+    max-height: 2.75rem;
     margin-left: 1rem;
   } 
   
@@ -238,9 +241,9 @@ p {
     right: 1rem;
   }
 
-
   .nav-link a {
     font-family: "Poppins Regular";
+    font-weight: 900;
     color: white;
   }
   
@@ -258,6 +261,7 @@ p {
   
   .nav-link-ham:hover {
     cursor: pointer;
+    text-decoration: none;
   }
   
   .mobile-nav-links {
@@ -279,10 +283,10 @@ p {
 }
 
 .whale {
-  max-height: 65%;
+  max-height: 60%;
   width: auto;
   padding: 1em;
-  margin-top: -325px;
+  margin-top: -305px;
 }
 
 
