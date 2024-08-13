@@ -203,7 +203,18 @@ p {
 }
 
 /* header navbar ------------------------------------------------------------------------- */
-  nav {
+
+nav {
+  min-height: 4rem;
+  padding: 1rem;
+}
+
+.nav-logo img {
+  max-height: 3rem;
+  margin-left: 1rem;
+}
+/*
+nav {
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -212,9 +223,8 @@ p {
     padding: 3rem;
     width: 100%;
   }
-
+*/
   #navbar {
-    margin-left: 260px;
     margin-top: -50px;
     min-height: 4rem;
     padding: 3rem;
@@ -226,11 +236,11 @@ p {
     width: 60%;
     height: 70px;
 }
-  
+/*
 .nav-logo img {
     max-height: 2.75rem;
     margin-left: 1rem;
-  } 
+  } */
   
 .mlh-badge,
   .mlh-img {
