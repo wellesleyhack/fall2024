@@ -28,15 +28,17 @@
     font-style: normal;
 }
 
-html, body {
-  height: 100%;
+body {
+  max-width:100%;
+  height:auto;
   margin: 0;
   padding: 0;
   /* background-image: url("https://cdn.glitch.global/0b7550b6-a34a-456a-aa8a-a4dd9f654d83/gradient.png?v=1721263599136");*/
   background: linear-gradient(#122F4C 0%, #2A6EB2 61%, #8ECBE7 100%);
   background-size: cover !important;
   background-attachment: local;
-  overflow-x: hidden;
+  overflow:visible;
+  overflow-x:hidden;
 }
 
 .HeadTitle {
@@ -65,8 +67,8 @@ html, body {
 }
 
 #mainWave {
-    width: 80%;
-    margin-left: -600px;
+    width: 100%;
+    margin-left: -35em;
 }
 
 #waveBottom {
