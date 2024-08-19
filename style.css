@@ -117,6 +117,9 @@ p {
     visibility: hidden;
     /* justify-content: center; */
   }
+  #about {
+      width: 65%;
+  }
 
   .nav-link-ham {
     display: block !important;
@@ -459,7 +462,7 @@ nav {
 .answer {
   font-family: "Poppins Regular";
   margin-top: 0.25rem;
-  color: #0C3147;
+  color: #F5A9B0;
   /*font-weight: 400;*/
   font-size: 1rem;
   line-height: 1.3rem;
