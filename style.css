@@ -462,7 +462,7 @@ nav {
 .answer {
   font-family: "Poppins Regular";
   margin-top: 0.25rem;
-  color: #8ECBE7;
+  color: white;
   /*font-weight: 400;*/
   font-size: 1rem;
   line-height: 1.3rem;
@@ -479,7 +479,7 @@ nav {
 .faqcard a,
 .email-blurb a {
   font-weight: 500;
-  color: white;
+  color: #F5A9B0;
 }
 
 .email-blurb {
