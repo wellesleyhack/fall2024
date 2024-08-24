@@ -42,6 +42,10 @@ body {
   overflow-x: hidden;
 }
 
+#home {
+    display: flex;
+}
+
 .HeadTitle {
     font-family: 'P22 Basala';
     font-weight: 1000;
