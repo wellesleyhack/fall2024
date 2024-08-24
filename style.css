@@ -29,13 +29,16 @@
 }
 
 body {
+  /*
   max-width:100%;
   height:auto;
   margin: 0;
-  padding: 0;
-  background: linear-gradient(#122F4C 0%, #2A6EB2 61%, #8ECBE7 100%);
-  background-size: cover !important;
-  background-attachment: local;
+  padding: 0; */
+  background-image: url("https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Background.png?v=1724464770083");
+  background-size: 100vw 100%;
+  /* background: linear-gradient(#122F4C 0%, #2A6EB2 61%, #8ECBE7 100%);
+  background-size: cover !important; 
+  background-attachment: local; */
   overflow-x: hidden;
 }
 
