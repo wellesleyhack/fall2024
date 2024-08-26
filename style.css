@@ -131,6 +131,10 @@ p {
     box-sizing: border-box;
   }
 
+  #theme {
+    margin-bottom: 40rem;
+  }
+
   .HeadTitle {
     font-size: 3rem; /* Adjust the font size as needed */
   }
