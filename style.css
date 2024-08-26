@@ -46,6 +46,11 @@ body {
 
 #home {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
 }
 
 .HeadTitle {
@@ -316,7 +321,8 @@ nav {
 
   /* Home ------------------------------------------------------------------------- */
   .HomeIntro {
-    text-align: right;
+    /* text-align: right; */
+    text-align: center;
     margin-right: 80px; 
 }
 
