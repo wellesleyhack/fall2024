@@ -339,15 +339,12 @@ nav {
 
   /* Home ------------------------------------------------------------------------- */
   .HomeIntro {
-    /* text-align: right; */
-    text-align: center;
-    margin-right: 80px; 
+    text-align: center; 
 }
 
 .whale {
-  max-height: 60%;
+  max-height: 45%;
   width: auto;
-  padding: 1em;
   margin-top: -20px;
 }
 
