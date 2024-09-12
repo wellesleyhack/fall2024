@@ -178,7 +178,7 @@ p {
   }
 
   .faqcard {
-    max-width: 90vw; /* Increased width to better utilize available space */
+    max-width: 100%; /* Increased width to better utilize available space */
     margin: 0 auto; /* Centered the element */
   }
 
