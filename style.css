@@ -29,18 +29,10 @@
 }
 
 body {
-  /*
-  max-width:100%;
-  height:auto;
-  margin: 0;
-  padding: 0; */
   background-image: url("https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Background.png?v=1724464770083");
   background-size: 100vw 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background: linear-gradient(#122F4C 0%, #2A6EB2 61%, #8ECBE7 100%);
-  background-size: cover !important; 
-  background-attachment: local; */
   overflow-x: hidden;
 }
 
@@ -686,6 +678,7 @@ nav {
 
   /* for other screen sizes (mobile)  -   fix later */
 @media (max-width: 700px) {
+  
   .nav-logo {
     display: none;
     visibility: hidden;
@@ -704,9 +697,46 @@ nav {
     background: none;
   }
 
-  /* .nav-link a {
-    color: white !important;
-  } */
+  .coding3 {
+    margin-top: -70vh;
+    margin-right: 5%;  
+    max-width: 100%; 
+  }
+
+  #about {
+    margin-left: 10px; 
+    max-width: 90%;  
+    margin-top: 2em; 
+  }
+  #theme {
+    margin-right: 10px;  
+    max-width: 90%;  
+    margin-left: auto;  
+  }
+  .compGIF {
+    margin-top: -20vh; 
+    max-width: 100%;
+  }
+
+  footer {
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+  }
+  
+  .faqcard {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .schedulebox .row {
+    margin: 0.5rem;
+  }
+
+  #navbar {
+    margin-top: 0;
+    padding: 1rem; 
+  }
 
 }
 /* footer ------------------------------------------------------------------------------ */
