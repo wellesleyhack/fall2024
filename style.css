@@ -119,7 +119,9 @@ p {
     max-width: 100vw;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    overflow-y: auto; 
+    overscroll-behavior: contain;
     box-sizing: border-box;
   }
 
