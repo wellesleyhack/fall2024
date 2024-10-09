@@ -121,7 +121,7 @@ p {
     padding: 0;
     overflow-x: hidden !important;
     overflow-y: auto; 
-    overscroll-behavior: contain;
+    overscroll-behavior: none;
     box-sizing: border-box;
   }
 
