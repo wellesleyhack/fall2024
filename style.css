@@ -664,10 +664,14 @@ nav {
 }
 
 .silver {
-  height: 10rem;
+  height: 9rem;
   padding: 1.2rem;
 }
 
+.gold {
+  height: 14rem;
+  padding: 2rem;
+}
 
 .sponsor-blurb {
   color: white;

@@ -1,157 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>WHACK 2024</title>
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- loading bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>WHACK 2024</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
+  <!-- loading bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <body>
-    
-    <nav class="container-fluid">
-      <div class="nav-logo col-auto">
-        <a href="#"
-          ><img
-            src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/whack-2.png?v=1722107444021"
-            alt="Wellesley Hackathon 2024 Logo"
-        /></a>
+</head>
+
+<body>
+
+  <nav class="container-fluid">
+    <div class="nav-logo col-auto">
+      <a href="#"><img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/whack-2.png?v=1722107444021"
+          alt="Wellesley Hackathon 2024 Logo" /></a>
+    </div>
+    <button class="nav-link-ham">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#304A8B" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </button>
+
+    <div id="navbar" class="nav-links row">
+      <div class="nav-link col-auto">
+        <a href="/#about">About</a>
       </div>
-      <button class="nav-link-ham">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="48"
-          height="48"
-          fill="#304A8B"
-          class="bi bi-list"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-          />
-        </svg>
-      </button>
-      
-      <div id="navbar" class="nav-links row">
-        <div class="nav-link col-auto">
-          <a href="/#about">About</a>
-        </div>
-        <div class="nav-link col-auto">
-          <a href="/#theme">Theme</a>
-        </div>
-        <!--
+      <div class="nav-link col-auto">
+        <a href="/#theme">Theme</a>
+      </div>
+      <!--
         <div class="nav-link col-auto">
           <a href="/#schedule">Schedule</a>
         </div> -->
-        <div class="nav-link col-auto">
+      <div class="nav-link col-auto">
+        <a href="/#faq">FAQ</a>
+      </div>
+      <div class="nav-link col-auto">
+        <a href="/#team">Meet the Team</a>
+      </div>
+      <div class="nav-link col-auto">
+        <a href="/#sponsors">Sponsors</a>
+      </div>
+    </div>
+
+    <!-- <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=blue" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-blue.svg" alt="Major League Hacking 2025 Hackathon Season" style="width:100%"></a> -->
+
+    <div class="mobile-nav-links container">
+      <div class="col-lg">
+        <div class="nav-link row">
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-link row">
+          <a href="/#about">About</a>
+        </div>
+        <div class="nav-link row">
+          <a href="/#themes">Themes</a>
+        </div>
+        <div class="nav-link row">
+          <a href="/#schedule">Schedule</a>
+        </div>
+        <div class="nav-link row">
           <a href="/#faq">FAQ</a>
         </div>
-        <div class="nav-link col-auto">
+        <div class="nav-link row">
           <a href="/#team">Meet the Team</a>
         </div>
-        <div class="nav-link col-auto">
+        <div class="nav-link row">
           <a href="/#sponsors">Sponsors</a>
         </div>
       </div>
-      
-      <!-- <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=blue" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-blue.svg" alt="Major League Hacking 2025 Hackathon Season" style="width:100%"></a> -->
+    </div>
+  </nav>
 
-      <div class="mobile-nav-links container">
-        <div class="col-lg">
-          <div class="nav-link row">
-            <a href="#">Home</a>
-          </div>
-          <div class="nav-link row">
-            <a href="/#about">About</a>
-          </div>
-          <div class="nav-link row">
-            <a href="/#themes">Themes</a>
-          </div>
-          <div class="nav-link row">
-            <a href="/#schedule">Schedule</a>
-          </div>
-          <div class="nav-link row">
-            <a href="/#faq">FAQ</a>
-          </div>
-          <div class="nav-link row">
-            <a href="/#team">Meet the Team</a>
-          </div>
-          <div class="nav-link row">
-            <a href="/#sponsors">Sponsors</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <section id="home" class="fullscreen-section">
+    <div class="HomeIntro" style="margin-top: 112px;">
+      <img class="whale"
+        src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/whale2%202.png?v=1722214812907">
+      <p class="HeadTitle">WHACK 2024</p>
+      <p class="PoppinsBold">November 9-10, 2024</p>
+      <a href="https://forms.gle/RH16sgx29WbWW6fc9"><button class="register">Register Now!</button></a>
+    </div>
 
-    <section id="home" class="fullscreen-section">
-      <div class="HomeIntro" style="margin-top: 112px;">
-        <img class="whale" src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/whale2%202.png?v=1722214812907">
-        <p class="HeadTitle">WHACK 2024</p>
-        <p class="PoppinsBold">November 9-10, 2024</p>
-        <a href="https://forms.gle/RH16sgx29WbWW6fc9"><button class="register">Register Now!</button></a>
-      </div>
-
-      <!--
+    <!--
       <div id="mainWave">
         <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/waves.png?v=1723908617132">
       </div> -->
-    </section>
-    
+  </section>
 
-    <section id="about" <!-- class="fullscreen-section" -->
-      <h1 class="section-title">About</h1>
-      
-      <p>
-        <br /><br />
-        <b>WHACK (Wellesley College Hackathon)</b> is Wellesley College's annual
-        hackathon event. We welcome any undergraduate college students ages 18
-        and above to join us for a weekend of innovation, learning, sharing
-        ideas, and forming new connections!
-      </p>
 
-    </section>
-    
-    
+  <section id="about" <!-- class="fullscreen-section" -->
+    <h1 class="section-title">About</h1>
 
-    <section id="theme" class="fullscreen-section">
-      <p class="gif1">
-        <img class="compGIF" src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/codingPNG.gif?v=1722107391886">
-      </p>
+    <p>
       <br /><br />
-      <h1 class="section-title">Theme</h1>
+      <b>WHACK (Wellesley College Hackathon)</b> is Wellesley College's annual
+      hackathon event. We welcome any undergraduate college students ages 18
+      and above to join us for a weekend of innovation, learning, sharing
+      ideas, and forming new connections!
+    </p>
+
+  </section>
+
+
+
+  <section id="theme" class="fullscreen-section">
+    <p class="gif1">
+      <img class="compGIF"
+        src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/codingPNG.gif?v=1722107391886">
+    </p>
+    <br /><br />
+    <h1 class="section-title">Theme</h1>
+    <br>
+    <p>
+      <b>🎓 Hack Academy: Transforming Education 🎓</b>
+    </p>
+    <p>
       <br>
-      <p>
-        <b>🎓 Hack Academy: Transforming Education 🎓</b>
-      </p>
-      <p>
-        <br>
-        Imagine revolutionizing the way we learn! 
-        This theme focuses on educational technology (edtech) innovations. 
-        Inspired by platforms like Khan Academy, participants are encouraged to develop 
-        the next groundbreaking tool that could help students master complex subjects 
-        and excel academically. This could be the spark for a new era in education.
-        <br> <br>
-        Get your creative juices flowing and start thinking about how you can contribute to/help 
-        facilitate this exciting challenge. Let's harness our collective brilliance to make a 
-        lasting impact on the future of education!Get ready to revolutionize the
-        way we learn!
-      </p>
-      
-    </section>
-    <div class="gif2">
-        <img class="coding3" src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/coding3PNG.gif?v=1722107387326">
-    </div>
-<!--
+      Imagine revolutionizing the way we learn!
+      This theme focuses on educational technology (edtech) innovations.
+      Inspired by platforms like Khan Academy, participants are encouraged to develop
+      the next groundbreaking tool that could help students master complex subjects
+      and excel academically. This could be the spark for a new era in education.
+      <br> <br>
+      Get your creative juices flowing and start thinking about how you can contribute to/help
+      facilitate this exciting challenge. Let's harness our collective brilliance to make a
+      lasting impact on the future of education!Get ready to revolutionize the
+      way we learn!
+    </p>
+
+  </section>
+  <div class="gif2">
+    <img class="coding3"
+      src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/coding3PNG.gif?v=1722107387326">
+  </div>
+  <!--
     <section id="schedule" class="container">
       <h2 class="section-title row justify-content-center">Schedule</h2>
       <p> <br /><br /> </p>
@@ -326,320 +315,253 @@
       </div>
     </section>
 -->
-    <section id="faq" class="container">
-      <h2 class="section-title row justify-content-center">Frequently Asked Questions</h2>
-      <br><br/>
+  <section id="faq" class="container">
+    <h2 class="section-title row justify-content-center">Frequently Asked Questions</h2>
+    <br><br />
 
-      <div class="row justify-content-center">
-        <div class="col-auto justify-content-center" >
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >What is a hackathon?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
-
-            <div class="answer">
-              It's a grand gathering of people to make their ideas come to life.
-              Think out of the box, try new technologies, ask questions, make
-              mistakes, discover a new language, and have fun! We will be
-              following Major League Hacking's
-              <a
-                target="_blank"
-                href="http://mlh.io/code-of-conduct"
-                alt="code of conduct"
-              >
-                Code of Conduct</a
-              >. Check out their video explaining what a hackathon is
-              <a
-                target="_blank"
-                href="https://www.youtube.com/watch?v=qj4DQfYx2Hg"
-                alt="What is a hackathon?"
-              >
-                here</a
-              >.
+    <div class="row justify-content-center">
+      <div class="col-auto justify-content-center">
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">What is a hackathon?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
             </div>
-          </button>
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >What if I have no experience with coding or hackathons?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-               </div
-            ></span>
+          </span>
 
-            <div class="answer">
-              Don't sweat it! We've purposefully designed WHACK to offer an
-              encouraging and supportive environment. At WHACK, you'll quickly
-              learn from our workshops and army of mentors, as well as your team
-              members and other students. You're also welcome to take on
-              non-coding roles or create projects using low or no-code tools!
+          <div class="answer">
+            It's a grand gathering of people to make their ideas come to life.
+            Think out of the box, try new technologies, ask questions, make
+            mistakes, discover a new language, and have fun! We will be
+            following Major League Hacking's
+            <a target="_blank" href="http://mlh.io/code-of-conduct" alt="code of conduct">
+              Code of Conduct</a>. Check out their video explaining what a hackathon is
+            <a target="_blank" href="https://www.youtube.com/watch?v=qj4DQfYx2Hg" alt="What is a hackathon?">
+              here</a>.
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">What if I have no experience with coding or hackathons?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
             </div>
-          </button>
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >When do applications open?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
+          </span>
 
-            <div class="answer">
-              Applications are now unfortunately closed. You can apply for our <a href="https://forms.gle/bU5AePBu5TiMJNm57">waitlist</a>, 
-              and if we are under capacity on the day on the day of the hackathon, we will contact you and let you know if you can join in!
+          <div class="answer">
+            Don't sweat it! We've purposefully designed WHACK to offer an
+            encouraging and supportive environment. At WHACK, you'll quickly
+            learn from our workshops and army of mentors, as well as your team
+            members and other students. You're also welcome to take on
+            non-coding roles or create projects using low or no-code tools!
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">When do applications open?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
             </div>
-          </button>
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >Who can attend? Is this event only for women?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
+          </span>
 
-            <div class="answer">
-              We welcome any undergraduate college student 18 or above to
-              participate in WHACK. It's important to keep in mind that we are
-              looking to create a welcoming and empowering space for women and
-              other underrepresented identities in tech. If you have any
-              questions about this, please contact us!
+          <div class="answer">
+            Applications are now unfortunately closed. You can apply for our <a
+              href="https://forms.gle/bU5AePBu5TiMJNm57">waitlist</a>,
+            and if we are under capacity on the day on the day of the hackathon, we will contact you and let you know if
+            you can join in!
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">Who can attend? Is this event only for women?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
             </div>
-          </button>
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >How will mentorship work?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
+          </span>
 
-            <div class="answer">
-              We will have mentors available for everyone! They will be
-              available to help you both on-site and in a Discord channel just
-              for mentoring purposes. You will also be able to ask questions
-              directly in our sponsors' Discord channels.
+          <div class="answer">
+            We welcome any undergraduate college student 18 or above to
+            participate in WHACK. It's important to keep in mind that we are
+            looking to create a welcoming and empowering space for women and
+            other underrepresented identities in tech. If you have any
+            questions about this, please contact us!
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">How will mentorship work?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
             </div>
-          </button>
-        </div>
-        <div class="col-auto justify-content-center">
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >How will hackers be accepted?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
+          </span>
 
-            <div class="answer">
-              Everyone will be allowed to attend after filling out our
-              registration google form once it is out! However, hackers must be
-              present in-person during the hackathon.
-            </div>
-          </button>
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >How do teams work? Can I register solo?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
-
-            <div class="answer">
-              Hackers can decide to register in teams of 2-4 people, but
-              everyone must submit individual applications. Members of teams who
-              apply together will all receive the same acceptance decision.<br /><br />
-              We'll also be facilitating activities before and during the event
-              to help you find teams. Although you're welcome to hack on your
-              own, only teams are eligible to win prizes.
-            </div>
-          </button>
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >What will I eat?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
-
-            <div class="answer">
-              Trust us, you won't be hungry at WHACK! We'll provide all meals on
-              Saturday, and breakfast and lunch on Sunday. We'll also have a
-              snack table, food surprises, and coffee throughout the hackathon.
-              We work hard to accommodate all dietary restrictions and make
-              healthy options available.
-            </div>
-          </button>
-         <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question">What if I can only come for part of the weekend?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div>
-            </span>
-            <div class="answer">
-              If you have a special circumstance, please indicate so on your application. WHACK is ultimately a resource for you to learn, connect with others, and meet mentors in industry, so you'll get more out of it if you can stay for the whole event.
-            </div>
-          </button>
-
-          <button class="faqcard row">
-            <span class="icon">
-              <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130" alt="icon" />
-            </span>
-            <span class="question"
-              >Do I have to pay to participate?
-              <div class="drop">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  width="20" 
-                  height="20" 
-                  fill="#CCBBFD" 
-                  class="bi bi-caret-down-fill" 
-                  viewBox="0 0 16 16"
-                >
-                  <path 
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </div
-            ></span>
-
-            <div class="answer">
-              Nope! WHACK is completely free for all hackers. However, keep in
-              mind potential costs for transportation and housing, as we will
-              not be covering those.
-            </div>
-          </button>
-        </div>
+          <div class="answer">
+            We will have mentors available for everyone! They will be
+            available to help you both on-site and in a Discord channel just
+            for mentoring purposes. You will also be able to ask questions
+            directly in our sponsors' Discord channels.
+          </div>
+        </button>
       </div>
-      <div class="row justify-content-center">
-        <p class="email-blurb">
-          Any additional questions? Email us at
-          <a class="email-link" href="mailto:hello@wellesleyhacks.org"
-            >hello@wellesleyhacks.org</a
-          >!
-        </p>
-      </div>
-    </section>
+      <div class="col-auto justify-content-center">
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">How will hackers be accepted?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </div>
+          </span>
 
-    <section id="team" class="container">
-      <h2 class="section-title row justify-content-center">Meet the Team</h2>
-        <!--       <div class="teamtabs row justify-content-center">
+          <div class="answer">
+            Everyone will be allowed to attend after filling out our
+            registration google form once it is out! However, hackers must be
+            present in-person during the hackathon.
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">How do teams work? Can I register solo?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </div>
+          </span>
+
+          <div class="answer">
+            Hackers can decide to register in teams of 2-4 people, but
+            everyone must submit individual applications. Members of teams who
+            apply together will all receive the same acceptance decision.<br /><br />
+            We'll also be facilitating activities before and during the event
+            to help you find teams. Although you're welcome to hack on your
+            own, only teams are eligible to win prizes.
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">What will I eat?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </div>
+          </span>
+
+          <div class="answer">
+            Trust us, you won't be hungry at WHACK! We'll provide all meals on
+            Saturday, and breakfast and lunch on Sunday. We'll also have a
+            snack table, food surprises, and coffee throughout the hackathon.
+            We work hard to accommodate all dietary restrictions and make
+            healthy options available.
+          </div>
+        </button>
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">What if I can only come for part of the weekend?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </div>
+          </span>
+          <div class="answer">
+            If you have a special circumstance, please indicate so on your application. WHACK is ultimately a resource
+            for you to learn, connect with others, and meet mentors in industry, so you'll get more out of it if you can
+            stay for the whole event.
+          </div>
+        </button>
+
+        <button class="faqcard row">
+          <span class="icon">
+            <img src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/pencil.png?v=1722288307130"
+              alt="icon" />
+          </span>
+          <span class="question">Do I have to pay to participate?
+            <div class="drop">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#CCBBFD"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </div>
+          </span>
+
+          <div class="answer">
+            Nope! WHACK is completely free for all hackers. However, keep in
+            mind potential costs for transportation and housing, as we will
+            not be covering those.
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <p class="email-blurb">
+        Any additional questions? Email us at
+        <a class="email-link" href="mailto:hello@wellesleyhacks.org">hello@wellesleyhacks.org</a>!
+      </p>
+    </div>
+  </section>
+
+  <section id="team" class="container">
+    <h2 class="section-title row justify-content-center">Meet the Team</h2>
+    <!--       <div class="teamtabs row justify-content-center">
         <button class="col-auto teamtitle allmembers">All</button>
         <button class="col-auto teamtitle directors">Directors</button>
         <button class="col-auto teamtitle webdevs">Web Dev</button>
@@ -649,175 +571,132 @@
         <button class="col-auto teamtitle treasuries">Treasury</button>
         </div>
         <div class="teammembers"></div> -->
-        <div class="gifM">
-          <img class="thinkGIF" src= "https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/coding2PNG.gif?v=1722107381290" > 
-        </div>
-        <div class="row justify-content-center">
-          <p>
-          <br /><br />
-          <b>✨ Coming soon! ✨</b> 
-          <br /><br />
-          </p>
-        </div>
-    </section>
+    <div class="gifM">
+      <img class="thinkGIF"
+        src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/coding2PNG.gif?v=1722107381290">
+    </div>
+    <div class="row justify-content-center">
+      <p>
+        <br /><br />
+        <b>✨ Coming soon! ✨</b>
+        <br /><br />
+      </p>
+    </div>
+  </section>
 
-    <section id="sponsors" class="fullscreen-section">
-      <h2 class="section-title row justify-content-center">Sponsorships</h2>
-      <div class="sponsors-table container">
-        <div class="row justify-content-center text-align-center bronzetier">
-          <a class="rectangle silver" href="https://www.akamai.com/">
-            <img alt="Logo of Akamai Technologies" src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/akamai-logo-rgb.png?v=1726686816044">
-          </a>
-          <a class="rectangle silver" href="https://www.travelers.com/">
-              <img alt="Logo of Travelers" src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Travelers-logo.png?v=1726684576639">
-          </a>
-          <a class="rectangle bronze" href="https://flatlogic.com/">
-            <img alt="Logo of Flatlogic" src="assets/flatlogic-logo-light.svg">
+  <section id="sponsors" class="fullscreen-section">
+    <h2 class="section-title row justify-content-center">Sponsorships</h2>
+    <div class="sponsors-table container">
+      <div class="row justify-content-center text-align-center goldtier">
+        <a class="rectangle gold" href="https://aws.amazon.com/security/">
+          <img alt="Logo of AWS"
+            src="assets/amazon-logo-light.png">
         </a>
-        </div>
-        <div class="row justify-content-center sponsor-blurb">
-          <p>
-            Want to sponsor us? Contact our sponsorships team at
-            <a href="mailto:sponsors@wellesleyhacks.org"
-              >sponsors@wellesleyhacks.org</a
-            >!
-          </p>
-        </div>
-      </div> 
-      <!--
+      </div>
+      <div class="row justify-content-center text-align-center silvertier">
+        <a class="rectangle silver" href="https://www.akamai.com/">
+          <img alt="Logo of Akamai Technologies"
+            src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/akamai-logo-rgb.png?v=1726686816044">
+        </a>
+        <a class="rectangle silver" href="https://www.travelers.com/">
+          <img alt="Logo of Travelers"
+            src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Travelers-logo.png?v=1726684576639">
+        </a>
+      </div>
+      <div class="row justify-content-center text-align-center bronzetier">
+        <a class="rectangle bronze" href="https://flatlogic.com/">
+          <img alt="Logo of Flatlogic" src="assets/flatlogic-logo-light.svg">
+        </a>
+      </div>
+      <div class="row justify-content-center sponsor-blurb">
+        <p>
+          Want to sponsor us? Contact our sponsorships team at
+          <a href="mailto:sponsors@wellesleyhacks.org">sponsors@wellesleyhacks.org</a>!
+        </p>
+      </div>
+    </div>
+    <!--
       <div class="waveBottom">
         <img class="wave-image" src="https://cdn.glitch.global/928388c8-f583-4b01-b1f3-2ed52e510f18/Group%205%209.02.19%20PM.png?v=1723056740742">
       </div> -->
-    </section>
-    
-    <footer>
-      <div class="conductP">
-        <p>
-          Made with &#10084; by the 2024 WHACK committee<br />
-          <a href="http://mlh.io/code-of-conduct" alt="code of conduct">
-            MLH Code of Conduct
-          </a>
-        </p>
-      </div>
+  </section>
 
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="https://twitter.com/wellesleyhack" target="_blank"
-            ><svg
-              fill="#FFFFFF"
-              height="40"
-              width="40"
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewbox="-143 145 512 512"
-              xml:space="preserve"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2 c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7 c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9 C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5 c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6 c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"
-                ></path>
-              </g></svg
-          ></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/wellesleyhack/" target="_blank">
-            <svg
-              fill="#FFFFFF"
-              height="40"
-              width="40"
-              viewBox="0 0 19.2 19.2"
-              data-name="Instagram w/circle"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6zM11.267 9.6A1.667 1.667 0 1 1 9.6 7.933 1.667 1.667 0 0 1 11.267 9.6zM9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z"
-                ></path>
-              </g>
-            </svg>
-          </a>
-        </li>
-        
-        <li class="list-inline-item">
-          <a href="https://www.facebook.com/wellesleyhack/" target="_blank"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="white"
-              class="bi bi-facebook"
-              viewBox="0 0 16 16"
-            >
+  <footer>
+    <div class="conductP">
+      <p>
+        Made with &#10084; by the 2024 WHACK committee<br />
+        <a href="http://mlh.io/code-of-conduct" alt="code of conduct">
+          MLH Code of Conduct
+        </a>
+      </p>
+    </div>
+
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a href="https://twitter.com/wellesleyhack" target="_blank"><svg fill="#FFFFFF" height="40" width="40"
+            version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewbox="-143 145 512 512" xml:space="preserve">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
               <path
-                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-              /></svg
-          ></a>
-        </li>
-        <li class="list-inline-item">
-          <a
-            href="https://www.linkedin.com/company/whackatwellesleycollege/about/"
-            target="_blank"
-            ><svg
-              fill="#FFFFFF"
-              height="40"
-              width="40"
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="-143 145 512 512"
-              xml:space="preserve"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9 V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7 C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6 c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z "
-                ></path>
-              </g></svg
-          ></a>
-        </li>
-      </ul>
-    </footer>
+                d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2 c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7 c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9 C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5 c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6 c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z">
+              </path>
+            </g>
+          </svg></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.instagram.com/wellesleyhack/" target="_blank">
+          <svg fill="#FFFFFF" height="40" width="40" viewBox="0 0 19.2 19.2" data-name="Instagram w/circle"
+            xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6zM11.267 9.6A1.667 1.667 0 1 1 9.6 7.933 1.667 1.667 0 0 1 11.267 9.6zM9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z">
+              </path>
+            </g>
+          </svg>
+        </a>
+      </li>
 
-    <!-- load jquery, popper, bootstrap -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com/wellesleyhack/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+            width="40" height="40" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/company/whackatwellesleycollege/about/" target="_blank"><svg fill="#FFFFFF"
+            height="40" width="40" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9 V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7 C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6 c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z ">
+              </path>
+            </g>
+          </svg></a>
+      </li>
+    </ul>
+  </footer>
 
-    <!-- load local js -->
-    <script src="script.js"></script>
+  <!-- load jquery, popper, bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-  </body>
+  <!-- load local js -->
+  <script src="script.js"></script>
+
+</body>
 
 </html>
