@@ -658,6 +658,27 @@ nav {
   padding: 1rem;
 }
 
+.elim {
+  height:5em;
+}
+
+.nordrec {
+  display: flex;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 0.5rem;
+
+  text-align: center;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.nordvpn img {
+  max-height:150%;
+  margin-left:-1em;
+}
+
 .rectangle img {
   max-height: 100%;
   max-width:100%;
